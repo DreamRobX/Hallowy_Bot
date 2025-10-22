@@ -1,0 +1,22 @@
+{
+  "name": "hallowy-bot",
+  "version": "0.1.0",
+  "description": "A modular Discord bot with slash commands and polished embed responses.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/scripts/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "slash-commands",
+    "discord.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
